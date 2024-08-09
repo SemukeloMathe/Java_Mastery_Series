@@ -93,6 +93,15 @@ Java was made in 1995 by Sun Microsystems and was led by the team of James Gosli
 - Literals are the exact values of that value.
 - For example we can print hexadecimal values, binary values, scientific numbers, etc.
 
+## Type Casting & Conversion
+
+- Type casting allows us to change the data types of certain data.
+- For instance we can change floats to intergers and vice versa.
+- The only way this doesn't work is converting a char datatype to int or float.
+- Casting is explicit conversion.
+- Conversion is automatic conversion.
+- Type promotion is the automatic conversion a data type into a different one when you perform operations on two same data types.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
