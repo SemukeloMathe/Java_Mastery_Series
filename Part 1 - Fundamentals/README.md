@@ -91,7 +91,7 @@ Java was made in 1995 by Sun Microsystems and was led by the team of James Gosli
 ### Literals
 
 - Literals are the exact values of that value.
-- For example we can print hexadecimal values, binary values, etc.
+- For example we can print hexadecimal values, binary values, scientific numbers, etc.
 
 ## Key Notes
 
