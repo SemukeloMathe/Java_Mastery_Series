@@ -80,13 +80,18 @@ Java was made in 1995 by Sun Microsystems and was led by the team of James Gosli
 - It follows _Unicode_ instead of ASCII. It has all the characters in the world.
 - You can work with any type of values or characters you have.
 - To set a _single character_ variable you need to use **single quotes.**
-- **Double quotes** are for _strings._
+- **Double quotes** are for _strings_.
 
 #### iv. Boolean
 
 - The only values we can have is true and false.
 - We don't do 0 and 1 to denote true or false.
 - to declare booleans in variables we use the **boolean** keyword.
+
+### Literals
+
+- Literals are the exact values of that value.
+- For example we can print hexadecimal values, binary values, etc.
 
 ## Key Notes
 
