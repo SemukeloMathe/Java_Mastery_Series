@@ -36,4 +36,60 @@ Java was made in 1995 by Sun Microsystems and was led by the team of James Gosli
 - Java provides us with _JRE_, which stands for _Java Runtime Environment_.
 - _JVM_ stands for _Java Virtual Machine_. JVM is part JRE, and also the external libraries are part of JRE.
 - _Javac_ is only for development purposes, which is why we install the _JDK (Java Development Kit)_.
--
+
+## 1. Variables
+
+- We store temporary data in variables.
+- They have a name and value.
+- Java is a strongly typed language, this means you have to declare the data type inwhich you're going to store data in a variable.
+- It allows us to store data in variable name.
+- When creating a variable make sure you give it a name, a type and assign a value to it of the same type.
+
+## 2. Data Types
+
+- We have multiple data types in java, and we have two categories of data types:
+
+### 1. Primitive Types
+
+- It is simple and basic to work with.
+- We divide primitives into 4 categories:
+
+#### i. Integer
+
+- To store whole numbers from negative to positive values.
+- We have multiple subtypes of integers, we have byte, short, int, long.
+- These all have different sizes.
+- byte is only 1 byte (8 bits). How do we calculate this range? It goes from -2^7 to 2^7 - 1. It starts from -128 to 127.
+- short is only 2 bytes and can store a range of whole numbers from -32768 to 32767.
+- The size of int is 4 bytes and can store whole numbers from -2147483648 to 2147483647. It is the preferred data type when we create variables with a numeric value
+- long supports 8 bytes, and can store whole numbers from -9223372036854775808 to 9223372036854775807. It is used when int is not large enough to store the value. Note that you should end the value with an "L".
+
+#### ii. Float
+
+- You should use a floating point type whenever you need a number with a decimal.
+- We have two subtypes of float, double and float.
+- Float takes 4 bytes.
+- Double takes 8 bytes.
+- Double is the default in Java. The reason is because double allows precision. Float has a limited precision set.a
+- Note that you should end the value with an "f" for floats and "d" for doubles.
+
+#### iii. Character
+
+- These include characters in succession.
+- They are two bytes in size.
+- It follows _Unicode_ instead of ASCII. It has all the characters in the world.
+- You can work with any type of values or characters you have.
+- To set a _single character_ variable you need to use **single quotes.**
+- **Double quotes** are for _strings._
+
+#### iv. Boolean
+
+- The only values we can have is true and false.
+- We don't do 0 and 1 to denote true or false.
+- to declare booleans in variables we use the **boolean** keyword.
+
+## Key Notes
+
+- The difference between _print_ and _println_ is that _println_ will always output with a new line.
+- We don't put semi colons on blocks.
+- Everytime you're creating a new variable mention the type.
