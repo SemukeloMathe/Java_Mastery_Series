@@ -121,6 +121,12 @@ Java is a programming language that has multiple features that allows it to be u
 - There is something called shortcircuiting, which quickly stops a conditional check if one of the conditions is not false. It won't check the remaining conditions.
 - To short circuit we use double symbols for the _AND(&&)_ and _OR(||)_ oprators.
 
+## Conditional Statements
+
+- Conditional Statements enable us to check for certain criteria and respond how we want based on that criteria.
+- We use the keyword **if** to check for a condition followed by the logic in parenthesis.
+- If the conditional is false, the block is omitted.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
