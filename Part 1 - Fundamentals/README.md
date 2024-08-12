@@ -103,6 +103,18 @@ Java is a programming language that has multiple features that allows it to be u
 
 ## Arithmetic Operators
 
+- Arithmetic operators allow us to perfom traditional math operations.
+- These include addition, subtration, multiplication and division.
+- For addition we use the traditional + sign and for subtraction we use the - sign.
+- For multiplication we use an **asterisk (\*)** and for division we use the **forward slash (/)**
+- We have a special operation called **modulos (%)** that allows us to retrieve the remainder of a division operation.
+- We also have increment and decrement operators **(++ & --)**.
+- For these two operations we have postfix increment/decrement or prefix increment/decrement.
+- _Prefix_ simply means that the operation will come before the value or variable, e.g(int num = 1; ++num or --num).
+- What this does is it performs increments the value already before it is used or accessed in the program, the value is instantly updated.
+- _Postfix_ simply means that the operation will come aftre the value or variable, e.g (int num = 1; num++ or num--).
+- What this does is it performs the operation on the next iteration of the variable is being accessed, the value is not instantly updated.
+
 ## Relational Operators
 
 - These are operators that allow us two compare two values.
@@ -126,6 +138,7 @@ Java is a programming language that has multiple features that allows it to be u
 - Conditional Statements enable us to check for certain criteria and respond how we want based on that criteria.
 - We use the keyword **if** to check for a condition followed by the logic in parenthesis.
 - If the conditional is false, the block is omitted.
+- There is another conditional statememnt called **else if** which allows us to add more conditional statements.
 
 ## Key Notes
 
