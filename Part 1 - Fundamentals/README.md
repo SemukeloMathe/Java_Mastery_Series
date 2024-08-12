@@ -112,9 +112,19 @@ Java is a programming language that has multiple features that allows it to be u
 - Two check if two values are not equal we use a special not equal operator,which uses an exclamation sign before the equal sign(!=).
 - These relational operators return a boolean, true of false.
 
+## Logical Operators
+
+- These operators combine two different relation operations to get a single boolean output.
+- We use the **AND (&)** operator to check if both conditions true.
+- We use the **OR (|)** operator to check if either operations return are true.
+- We use the **NOT (!)** operator to reverse a condition.
+- There is something called shortcircuiting, which quickly stops a conditional check if one of the conditions is not false. It won't check the remaining conditions.
+- To short circuit we use double symbols for the _AND(&&)_ and _OR(||)_ oprators.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
 - We don't put semi colons on blocks.
 - Everytime you're creating a new variable mention the type.
 - In programming, the **equals to (=)** symbol is used for _assigning_ values to a variable.
+- You can also run your java source file directly without compiling it using the commant **java -filename-**
