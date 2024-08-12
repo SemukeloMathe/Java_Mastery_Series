@@ -154,6 +154,9 @@ Java is a programming language that has multiple features that allows it to be u
 - The only problem with this switch moment it matches with a case, it will execute the block and will try to execute the entire remaining statements to complete the switch statement.
 - We have to us the _break_ keyword in all the cases to hault the execution.
 - If none of the cases match, we use a _default_ case that handles no matches.
+- In the newer versions Java, switch statements can be used as an expression.
+- We have multiple ways to execute the switch statement, we can use an **arrow syntax (->)** and all the whole switch statement should use this syntax.
+- If we want to use the **colon (:)** without the break statement we have to use the **yield** keyword before the specifying the expression.
 
 ## Key Notes
 
