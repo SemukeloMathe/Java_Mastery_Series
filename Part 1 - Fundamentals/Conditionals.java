@@ -23,6 +23,5 @@ public class Conditionals {
     } else {
       System.out.println(z);
     }
-
   }
 }

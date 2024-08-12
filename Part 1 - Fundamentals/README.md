@@ -140,6 +140,12 @@ Java is a programming language that has multiple features that allows it to be u
 - If the conditional is false, the block is omitted.
 - There is another conditional statememnt called **else if** which allows us to add more conditional statements.
 
+## Ternary Operator
+
+- The ternary operator allows us to do a quick if else statement.
+- The catch is that it has a shorthand syntax and it uses the _question mark sign (?)_ and _colon sign(:)_.
+- for example: int y = 3; int result = y > 5 ? 10 : 5
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
