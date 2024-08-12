@@ -146,6 +146,15 @@ Java is a programming language that has multiple features that allows it to be u
 - The catch is that it has a shorthand syntax and it uses the _question mark sign (?)_ and _colon sign(:)_.
 - for example: int y = 3; int result = y > 5 ? 10 : 5
 
+## Switch Statement
+
+- The switch statement allows us to check for a number or conditions witch avoids having a list of if else statements.
+- It will execute a particular case that matches the case you want to execute.
+- It checks the value that is parsed with the cases that are available, and if there is a match, that condition is executed.
+- The only problem with this switch moment it matches with a case, it will execute the block and will try to execute the entire remaining statements to complete the switch statement.
+- We have to us the _break_ keyword in all the cases to hault the execution.
+- If none of the cases match, we use a _default_ case that handles no matches.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
