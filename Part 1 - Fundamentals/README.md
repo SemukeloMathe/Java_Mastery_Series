@@ -101,8 +101,20 @@ Java is a programming language that has multiple features that allows it to be u
 - Conversion is automatic conversion.
 - Type promotion is the automatic conversion of a data type into a different one when you perform operations on two same data types.
 
+## Arithmetic Operators
+
+## Relational Operators
+
+- These are operators that allow us two compare two values.
+- Just like we have in mathematics, we also have these in programming languages.
+- Greater than(>), less than(<), greater than or equal to (>=), less than or equal to(<=), etc.
+- In Java, we use 2 equals to signs for comparison, e.g (a == b).
+- Two check if two values are not equal we use a special not equal operator,which uses an exclamation sign before the equal sign(!=).
+- These relational operators return a boolean, true of false.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
 - We don't put semi colons on blocks.
 - Everytime you're creating a new variable mention the type.
+- In programming, the **equals to (=)** symbol is used for _assigning_ values to a variable.
