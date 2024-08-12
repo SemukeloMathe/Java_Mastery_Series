@@ -158,6 +158,38 @@ Java is a programming language that has multiple features that allows it to be u
 - We have multiple ways to execute the switch statement, we can use an **arrow syntax (->)** and all the whole switch statement should use this syntax.
 - If we want to use the **colon (:)** without the break statement we have to use the **yield** keyword before the specifying the expression.
 
+## Loops
+
+- There are times when we want to repeatedly do the same thing alot of times, in programming we do that using loops.
+- We have while loops, do while loops, and for loops.
+- We usually use a variable named **i which stands for iterator** for our loops.
+
+### 1. While Loop
+
+- This loop will execute while until a given condition becomes false.
+- We use the keyword **while** to initialize a while loop.
+- The moment the condition becomes false, the loop terminates.
+- We can also nest loops inside loops.
+
+### 2. Do While Loop
+
+- A do while loop executes statements defined in a code block before the condition is checked.
+- So if a codition is false, the statement will be executed atleast once.
+- The difference between do while loop and while loop is that do while checks for a condition after execution whilst while loop checks for a condition before execution.
+
+### 3. For Loop
+
+- In a for loop we mention 3 different statements in one line.
+- The first statement is to initialize the counter variable.
+- The second statement is a conditional that keeps the statement to be true.
+- The third statement is the counter increment or decrement.
+
+### Which Loop To Use
+
+- If you know the number of iterations, use for loop.
+- If you don't know the end of an iteration, use while loop.
+- If you still want to execute a statement at least once even if the condition is false, use do while loop.
+
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.

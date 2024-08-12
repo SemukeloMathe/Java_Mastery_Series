@@ -55,7 +55,7 @@ public class Switch {
     }
     // switch as an expression
     day = "Sunday";
-    String result = "";
+    String result;
 
     result = switch (day) {
       case "Saturday", "Sunday" -> "6am";
@@ -70,5 +70,6 @@ public class Switch {
       case "Monday" : yield "8am";
       default : yield "7am";
     };
+    System.out.println(result);
   }
 }
