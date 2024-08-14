@@ -40,7 +40,7 @@ Java is a programming language that has multiple features that allows it to be u
 
 - We store temporary data in variables.
 - They have a name and value.
-- Java is a strongly typed language, this means you have to declare the data type in which you're going to store data in a variable.
+- Java is a strongly typed language, meaning you have to declare the **data type** in which you're going to store data in the variable.
 - It allows us to store data in variable name.
 - When creating a variable make sure you give it a **name**, a **type** and **assign** a **value** to it of the same type.
 
@@ -58,17 +58,17 @@ Java is a programming language that has multiple features that allows it to be u
 - To store whole numbers from negative to positive values.
 - We have multiple subtypes of integers, we have byte, short, int, long.
 - These all have different sizes.
-- byte is only 1 byte (8 bits). _How do we calculate this range?_ It goes from -2^7 to 2^7 - 1. It starts from -128 to 127.
-- short is only 2 bytes and can store a range of whole numbers from -32768 to 32767.
-- The size of int is 4 bytes and can store whole numbers from -2147483648 to 2147483647. It is the preferred data type when we create variables with a numeric value
-- long supports 8 bytes, and can store whole numbers from -9223372036854775808 to 9223372036854775807. It is used when int is not large enough to store the value. Note that you should end the value with an **"L"**.
+- **byte** is only 1 byte (8 bits). _How do we calculate this range?_ It goes from -2^7 to 2^7 - 1. It starts from -128 to 127.
+- **short** is only 2 bytes and can store a range of whole numbers from -32768 to 32767.
+- **int** is 4 bytes and can store whole numbers from -2147483648 to 2147483647. It is the preferred data type when we create variables with a numeric value
+- **long** supports 8 bytes, and can store whole numbers from -9223372036854775808 to 9223372036854775807. It is used when int is not large enough to store the value. Note that you should end the value with an **"L"**.
 
 #### ii. Float
 
 - You should use a floating point type whenever you need a number with a decimal.
 - We have two subtypes of float; **double** and **float**.
-- Float takes 4 bytes.
-- Double takes 8 bytes.
+- **float** takes 4 bytes.
+- **double** takes 8 bytes.
 - Double is the default in Java. The reason is because double allows precision. Float has a limited precision set.
 - Note that you should end the value with an **"f"** for floats and **"d"** for doubles is optional.
 
@@ -79,7 +79,7 @@ Java is a programming language that has multiple features that allows it to be u
 - It follows _Unicode_ instead of _ASCII_. It has all the characters in the world.
 - You can work with any type of values or characters you have.
 - To set a _single character_ variable you need to use **single quotes.**
-- **Double quotes** are for _strings_.
+- **Double quotes** are for **_strings_**.
 
 #### iv. Boolean
 
@@ -131,7 +131,7 @@ Java is a programming language that has multiple features that allows it to be u
 - We use the **OR (|)** operator to check if either operations return are true.
 - We use the **NOT (!)** operator to reverse a condition.
 - There is something called shortcircuiting, which quickly stops a conditional check if one of the conditions is not false. It won't check the remaining conditions.
-- To short circuit we use double symbols for the _AND(&&)_ and _OR(||)_ oprators.
+- To short circuit we use double symbols for the **AND(&&)** and **OR(||)** operators.
 
 ## Conditional Statements
 
