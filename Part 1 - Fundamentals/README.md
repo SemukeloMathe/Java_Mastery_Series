@@ -186,14 +186,16 @@ Java is a programming language that has multiple features that allows it to be u
 
 ### Which Loop To Use
 
-- If you know the number of iterations, use for loop.
-- If you don't know the end of an iteration, use while loop.
+- If you know the number of iterations, use a for loop.
+- If you don't know the end of an iteration, use a while loop.
 - If you still want to execute a statement at least once even if the condition is false, use do while loop.
 
 ## Key Notes
 
 - The difference between _print_ and _println_ is that _println_ will always output with a new line.
-- We don't put semi colons on blocks.
-- Everytime you're creating a new variable mention the type.
-- In programming, the **equals to (=)** symbol is used for _assigning_ values to a variable.
-- You can also run your java source file directly without compiling it using the commant **java -filename-**
+- We don't put **semi-colons(;)** on **blocks(code between curly braces {})**.
+- Everytime you're creating a new variable mention the data type.
+- In programming, the **equals to (=)** symbol is used for _assigning_ values to a variables.
+- You can also run your java source file directly without compiling it using the command **java -filename-**.
+- In for loops you can omit the first and last statement but we can't omit the aemi colons in the for loop.
+- We also have to place the counter variable inside the for loop to prevent creating an infinite loop.
