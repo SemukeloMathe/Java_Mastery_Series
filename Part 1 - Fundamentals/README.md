@@ -174,8 +174,8 @@ Java is a programming language that has multiple features that allows it to be u
 ### 2. Do While Loop
 
 - A do while loop executes statements defined in a code block before the condition is checked.
-- So if a codition is false, the statement will be executed atleast once.
-- The difference between do while loop and while loop is that do while checks for a condition after execution whilst while loop checks for a condition before execution.
+- So if a condition is false, the statement will be executed atleast once.
+- The difference between **do while loop** and **while loop** is that **do while** checks for a condition after execution whilst **while loop** checks for a condition before execution.
 
 ### 3. For Loop
 
@@ -197,5 +197,5 @@ Java is a programming language that has multiple features that allows it to be u
 - Everytime you're creating a new variable mention the data type.
 - In programming, the **equals to (=)** symbol is used for _assigning_ values to a variables.
 - You can also run your java source file directly without compiling it using the command **java -filename-**.
-- In for loops you can omit the first and last statement but we can't omit the aemi colons in the for loop.
+- In for loops you can omit the first and last statement but we can't omit the semi colons in the for loop.
 - We also have to place the counter variable inside the for loop to prevent creating an infinite loop.
