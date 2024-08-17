@@ -1,3 +1,3 @@
 # OOP Java
 
-This section contains intermediate java topics.
+## What is Object Oriented Programming?
